@@ -96,18 +96,6 @@ h2 {
 		}
 }
 
-h3{
-	color: #1B365C;
-	text-align: center;
-	font-size: 30px;
-	margin-left: 100px;
-  margin-top: 30px;
-	padding: 5px 51px 30px 25px;
-	height: 15px;
-	width: 100%;
-	line-height: 17px;
-  background-color:##81C8F8;
-}
 h4 {
 	color: #1B365C;
 	text-align: left;
@@ -138,9 +126,9 @@ h4 {
 }
 #Logo img {
 	float: center;
-	width: 120px;
-	height: 120px;
-  margin-left: 60px;
+	width: 200px;
+	height: 200px;
+  margin-left: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
 	padding-left: 10px;
@@ -189,7 +177,13 @@ background-color: #81C8F8;
   background-color: #81C8F8;
 }
 .calendarClass {
-	margin-left: 60px;
+	margin: 0px 5px 5px 100px;
+	padding: 5px 51px 30px 25px;
+	height: 80px;
+	width: 100%;
+	line-height: 60px;
+  justify-content: center;
+	display: flex;
 }
 
 .form-button1{
@@ -369,9 +363,6 @@ margin: 4px 8px;
 border-radius: 100;
 }
 
-
-
-
 /* *************************** NEW CSS BELOW ************************* */
 .msgAndPicMainDivClass {
 	width: 100%;
@@ -401,7 +392,7 @@ border-radius: 100;
 	/* justify-content: space-evenly; */
 	flex-direction: column;
 	align-items: center;
-	border: 2px solid #033B07;
+	border: 2px solid #522CA8;
 	border-radius: 6px;
 }
 
@@ -410,8 +401,20 @@ border-radius: 100;
 }
 
 .Whattodo {
+	display: flex;
+	/* justify-content: space-evenly; */
+	flex-direction: column;
+	align-items: center;
+}
+
+.Buytickets {
 	border: 2px solid #522CA8;
 	border-radius: 8px;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-left: 30px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 .buttonsplays {
@@ -421,6 +424,10 @@ border-radius: 100;
 	margin-bottom: 50px;
 }
 
+.card {
+	border: 2px solid #522CA8;
+	border-radius: 8px;
+	}
 .footer {
 	/* background-color: grey; */
 	display: flex;
@@ -439,7 +446,7 @@ border-radius: 100;
 	flex: 2;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
