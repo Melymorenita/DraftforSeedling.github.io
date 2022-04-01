@@ -96,18 +96,6 @@ h2 {
 		}
 }
 
-h3{
-	color: #1B365C;
-	text-align: center;
-	font-size: 30px;
-	margin-left: 100px;
-  margin-top: 30px;
-	padding: 5px 51px 30px 25px;
-	height: 15px;
-	width: 100%;
-	line-height: 17px;
-  background-color:##81C8F8;
-}
 h4 {
 	color: #1B365C;
 	text-align: left;
@@ -138,9 +126,9 @@ h4 {
 }
 #Logo img {
 	float: center;
-	width: 120px;
-	height: 120px;
-  margin-left: 60px;
+	width: 200px;
+	height: 200px;
+  margin-left: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
 	padding-left: 10px;
@@ -189,7 +177,13 @@ background-color: #81C8F8;
   background-color: #81C8F8;
 }
 .calendarClass {
-	margin-left: 60px;
+	margin: 0px 5px 5px 100px;
+	padding: 5px 51px 30px 25px;
+	height: 80px;
+	width: 100%;
+	line-height: 60px;
+  justify-content: center;
+	display: flex;
 }
 
 .form-button1{
@@ -208,9 +202,9 @@ justify-content: right;
 	margin-left: 10px;
 	margin-top: 20px;
 	margin-bottom: -10px;
-	font-size: 17px;
+	font-size: 22px;
 }
-.topnav {
+.nav {
 	width: 100%;
 	padding: 5px 5px 5px 5px;
 	background-color:#81C8F8;
@@ -218,8 +212,9 @@ justify-content: right;
 	margin-left: 2px;
 	border-radius: 3px 3px 3px 3px;
 	float: Center;
+	font-size: 25px;
 }
-.topnav a {
+.nav a {
 	display:block;
   width: 100%;
 	font-family: Arial;
@@ -230,57 +225,7 @@ justify-content: right;
 	font-size: 25px;
 	background-color: #81C8F8;
 }
-.topnav ul {
-	float: center;
-	width: 100%;
-	padding-inline-start: 0px;
-	margin-block-start: 0px;
-	margin-block-end: 0px;
-}
-.topnav ul li {
-	float: left;
-	width: 110px;
-	list-style: none;
-	position: relative;
-	display: block;
-	margin-right: 100px;
-	margin-left: 3px;
-	
-}
-.topnav ul li ul {
-	display: none;
-	position: absolute;
-	background-color: #81C8F8;
-	padding: 10px 0px 5px 10px;
-	border-radius: 10px 10px 10px 10px;	
-	z-index: 1000;
-}
-.topnav ul li:hover ul {
-	display: block;
-	position: absolute;
-	background-color: #81C8F8;
-	padding-right: 5px;
-	padding: 2px;
-	padding-top: 0px;
-	border-radius: 3px 2px 2px 5px;
-}
-.topnav ul li ul li {
-	padding: 3px;
-	margin: 3px;
 
-}
-.topnav ul li ul li a {
-	text-align: center;
-	font-size: 20px;
-	border-radius: 3px;
-  width: 100px;
-  line-height: 20px;
-}
-.topnav ul li ul li a:hover {
-	background-color:#8FE9FF;
-  width: 100px;
-  line-height: 20px;
-}
 .clearfix::after,
 .calendar ol::after {
 	content: ".";
@@ -369,9 +314,6 @@ margin: 4px 8px;
 border-radius: 100;
 }
 
-
-
-
 /* *************************** NEW CSS BELOW ************************* */
 .msgAndPicMainDivClass {
 	width: 100%;
@@ -401,7 +343,7 @@ border-radius: 100;
 	/* justify-content: space-evenly; */
 	flex-direction: column;
 	align-items: center;
-	border: 2px solid #033B07;
+	border: 2px solid #522CA8;
 	border-radius: 6px;
 }
 
@@ -410,8 +352,20 @@ border-radius: 100;
 }
 
 .Whattodo {
+	display: flex;
+	/* justify-content: space-evenly; */
+	flex-direction: column;
+	align-items: center;
+}
+
+.Buytickets {
 	border: 2px solid #522CA8;
 	border-radius: 8px;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-left: 30px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 .buttonsplays {
@@ -421,6 +375,10 @@ border-radius: 100;
 	margin-bottom: 50px;
 }
 
+.card {
+	border: 2px solid #522CA8;
+	border-radius: 8px;
+	}
 .footer {
 	/* background-color: grey; */
 	display: flex;
@@ -439,7 +397,7 @@ border-radius: 100;
 	flex: 2;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
